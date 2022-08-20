@@ -1,0 +1,4 @@
+mljar-mercury
+matplotlib
+numpy
+scipy
