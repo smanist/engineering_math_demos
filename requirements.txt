@@ -1,4 +1,5 @@
 mljar-mercury
+ipympl
 matplotlib
 numpy
 scipy
