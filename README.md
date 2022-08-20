@@ -33,3 +33,7 @@ Just download the `ipynb` file and run it on your computer.  Make sure to instal
    ```
    The branch name for the current repo is `master`, instead of `main` as suggested by some Mercury documentation.
 3. If a library/driver is not available on Heroku, it typically can be added via `settings/buildpack` of the app.
+
+Note:
+1. One can ignore the `celery`-related files - those are only for running Mercury locally.
+2. Widgets for Mercury, see [here](https://mercury-docs.readthedocs.io/en/latest/widgets/)
