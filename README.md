@@ -22,6 +22,10 @@ Just download the `ipynb` file and run it on your computer.  Make sure to instal
     ```
     mercury delete <path_to_your_notebook>
     ```
+   If `CTRL+C` does not kill the Django server, on Mac one can use
+    ```
+    sudo lsof -t -i tcp:8000 | xargs kill -9
+    ```
 2. If everything looks good, one can push to the Heroku website
     ```
     git push heroku <branch_name>
