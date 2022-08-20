@@ -1,5 +1,4 @@
 mljar-mercury
-ffmpeg-python
 matplotlib
 numpy
 scipy
