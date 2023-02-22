@@ -37,6 +37,10 @@ Just download the `ipynb` file and run it on your computer.  Make sure to instal
 ```
 heroku auth:login
 ```
+5. To debug Heroku application, do
+```
+Heroku logs --tail
+```
 
 Note:
 1. One can ignore the `celery`-related files - those are only for running Mercury locally.
